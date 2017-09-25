@@ -18,8 +18,7 @@ Signals: All properties for an interface will broadcast signal changed
 
 **Path definitions**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<type>** : The [HWMon class]
-(https://www.kernel.org/doc/Documentation/hwmon/sysfs-interface) name in lower
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<type>** : The [HWMon class](https://www.kernel.org/doc/Documentation/hwmon/sysfs-interface) name in lower
 case. Examples include `temperature, fan, voltage`.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<label>** : User defined
@@ -37,8 +36,7 @@ tree is identical to the interface being described below the
 parent directory.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;example:
-[openbmc/phosphor-dbus-interfaces/xyz/openbmc_project/Sensor/Threshold/Warning.yaml]
-(https://github.com/openbmc/phosphor-dbus-interfaces/blob/master/xyz/openbmc_project/Sensor/Threshold/Warning.interface.yaml)
+[openbmc/phosphor-dbus-interfaces/xyz/openbmc_project/Sensor/Threshold/Warning.yaml](https://github.com/openbmc/phosphor-dbus-interfaces/blob/master/xyz/openbmc_project/Sensor/Threshold/Warning.interface.yaml)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maps to D-Bus interface
 `xyz.openbmc_project.Sensor.Threshold.Warning`
@@ -47,8 +45,7 @@ Each 'name' property in the YAML file maps directly to D-Bus properties.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;example:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Warning.interface.yaml]
-(https://github.com/openbmc/phosphor-dbus-interfaces/blob/master/xyz/openbmc_project/Sensor/Threshold/Warning.interface.yaml)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Warning.interface.yaml](https://github.com/openbmc/phosphor-dbus-interfaces/blob/master/xyz/openbmc_project/Sensor/Threshold/Warning.interface.yaml)
 
 ```
 properties:
